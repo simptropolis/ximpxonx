@@ -1,0 +1,109 @@
+body {
+    background: #09001d;
+    color: #00ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    color: #aafff4;
+}
+
+#con-temp {
+    border: solid 2px white;
+    background: #12002e;
+    width: 90dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    
+}
+
+.temporadas {
+
+    height: 10dvh;
+    width: 90%;
+    border: solid 1px #6500ff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.capitulos {
+
+    height: 10dvh;
+    width: 90%;
+    border: solid 1px #6500ff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.cap {
+    height: 90%;
+    width: 90%;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+#tc {
+    border-width: 0px 0px 0px 1px;
+}
+
+#nc {
+    border-width: 0px 1px 0px 0px;
+    width: 20%;
+    color: #6affb6;
+    font-weight: bold;
+}
+
+#con-vid {
+    background: #0b001c ;
+    border-radius: 15px;
+    border: solid 1px white;
+    width: 90dvw;
+    height: 80dvw;
+}
+
+#con-titulo-vid {
+    height: 10dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 90dvw;
+    border: solid grey ;
+    border-width: 0px 0px 1px 0px;
+} 
+
+h3 {
+    color: #6affcb;
+} 
+
+#atras {
+    background: #6affcb;
+    border-radius: 20px;
+    height: 30px;
+    width: 70px;
+    color: #09001d;
+    margin-top: 50px;
+}  
