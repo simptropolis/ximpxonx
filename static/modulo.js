@@ -14,7 +14,7 @@ export async function listarCapitulos(t) {
     
     try{
         
-        let res = await fetch(`../T${t}/nombre.json`).then(r => r.json());
+        let res = await fetch(`./T${t}/nombre.json`).then(r => r.json());
         
         let cantidad = Object.keys(res).length;
         let numero = ['.'];
@@ -34,12 +34,12 @@ export async function listarCapitulos(t) {
           div.innerHTML = `<div id="nc" class="cap">${i}</div><div id="tc" class="cap">${res[numero[i]]}</div>`;
           con_temp.appendChild(div);
           
-          let url = `../T${t}/${t}x${numero[i]}.mp4`; 
+          let url = `./T${t}/${t}x${numero[i]}.mp4`; 
           
           
           
           div.onclick = () => {
-              document.body.innerHTML = `<h1>Ximpxonx</h1><div id="con-vid"><video src=${url} controls poster="../poster.jpg" width="95%" height="95%" >Lo siento mucho, hubo un error.</video></div><div id="con-titulo-vid">${res[numero[i]]}</div><h3>Temp: ${t} Ep: ${numero[i]}</h3>`;
+              document.body.innerHTML = `<h1>Ximpxonx</h1><div id="con-vid"><video src=${url} controls poster="./poster.jpg" width="95%" height="95%" >Lo siento mucho, hubo un error.</video></div><div id="con-titulo-vid">${res[numero[i]]}</div><h3>Temp: ${t} Ep: ${numero[i]}</h3>`;
               
           let atras = document.createElement('div');
           atras.id = 'atras';
