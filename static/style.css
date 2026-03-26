@@ -15,6 +15,7 @@ p {
 #con-temp {
     border: solid 2px white;
     background: #12002e;
+    width: 90vw;
     width: 90dvw;
     display: flex;
     flex-direction: column;
@@ -26,6 +27,7 @@ p {
 
 .temporadas {
 
+    height: 10vh;
     height: 10dvh;
     width: 90%;
     border: solid 1px #6500ff;
@@ -40,6 +42,7 @@ p {
 
 .capitulos {
 
+    height: 10vh;
     height: 10dvh;
     width: 90%;
     border: solid 1px #6500ff;
@@ -79,17 +82,21 @@ p {
     background: #0b001c ;
     border-radius: 15px;
     border: solid 1px white;
+    width: 90vw;
+    height: 80vw;
     width: 90dvw;
     height: 80dvw;
 }
 
 #con-titulo-vid {
+    height: 10vh;
     height: 10dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: left;
+    width: 90vw;
     width: 90dvw;
     border: solid grey ;
     border-width: 0px 0px 1px 0px;
