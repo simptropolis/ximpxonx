@@ -17,7 +17,7 @@ for (let i = 6; i < temps.length+6 ; i++) {
         
         localStorage.setItem('temporada selecionada',`${i}`);
         
-        location.href = './capag/index.html';
+        location.href = './static/capag/index.html';
         
         
         
