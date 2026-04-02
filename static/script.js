@@ -17,7 +17,7 @@ for (let i = 6; i < temps.length+6 ; i++) {
         
         localStorage.setItem('temporada selecionada',`${i}`);
         
-        location.href = './static/capag/index.html';
+        location.href = 'https://ximpxonx-temps.github.io/static/capag/index.html';
         
         
         
