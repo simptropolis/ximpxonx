@@ -5,6 +5,11 @@ getElementsByClassName('temporadas');
 export let con_capi = document.getElementById('con-capitulos');
 let ite = document.getElementById('info-temps') ;
 
+window.addEventListener('load', () => {
+
+    document.body.classList.add("loaded");
+
+});
 
 export function capitulosDe(datos) {
     
