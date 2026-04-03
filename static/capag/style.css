@@ -130,7 +130,9 @@ p {
     align-items: center;
     text-align: justify;
     width: 70%;
-    
+    height: auto;
+    overflow-y: hidden;
+    word-wrap: break-word;
     
 }
 
