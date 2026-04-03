@@ -54,7 +54,7 @@ export async function listarCapitulos(t) {
                     con_vid.style.height = '55vh';
                     let desc = document.getElementById('descripcion');
                     desc.style.height = '80%';
-                    desc.style.width = '40%';
+                    desc.style.width = '30%';
             
             
                 }
