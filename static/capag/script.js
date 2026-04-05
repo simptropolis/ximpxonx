@@ -17,11 +17,21 @@ window.addEventListener('load', () => {
 
 });
 
+
+
 export function capitulosDe(datos) {
     
     
     listarCapitulos(datos);
+    
+
+    let con_por = document.createElement('div');
+    con_por.innerHTML = `<img src="./T${datos}/portada.jpg" id="portada" />`;
+    con_por.id = 'con-por';
+    document.body.appendChild(con_por);
+
     ite.innerText = `Temporada ${datos}`;
+
     let atras = document.createElement('div');
           atras.id = 'atras';
           atras.innerText = 'atras';

@@ -23,6 +23,8 @@ export async function listarCapitulos(t) {
         } else {
             numero[i] = i;
         }
+
+          
         
           
           let div = document.createElement('div');
@@ -55,30 +57,13 @@ export async function listarCapitulos(t) {
                     let desc = document.getElementById('descripcion');
                     desc.style.height = '80%';
                     desc.style.width = '30%';
+                    let por = document.getElementById('portada');
+                    por.style.width = '25%';
             
             
                 }
 
-                window.addEventListener('orientationchange', () => {
-
-                    if (window.innerWidth > window.innerHeight) {
-
-                        let vid = document.getElementById('vid') ;
-                        vid.style.width = '50vw';
-                        vid.style.height = '50vh';
-                        let con_vid = document.getElementById('con-vid');
-                        con_vid.style.flexDirection = 'row';
-                        con_vid.style.justifyContent = 'space-around';
-                        con_vid.style.paddingTop = '0px';
-                        con_vid.style.height = '55vh';
-                        let desc = document.getElementById('descripcion');
-                        desc.style.height = '80%';
-                        desc.style.width = '30%';
-            
-            
-                    }
-
-                });
+                
 
           let atras = document.createElement('div');
           atras.id = 'atras';
