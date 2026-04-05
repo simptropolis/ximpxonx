@@ -73,8 +73,13 @@ p {
     font-size: large;
     
 }
-    
 
+
+.temporadas:hover {
+   background: #195b64 ; 
+   color: #75ddfd ;
+   box-shadow: 1px 1px 5px #021214;
+}
 .capitulos {
 
     height: 10vh;
