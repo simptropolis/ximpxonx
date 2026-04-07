@@ -21,20 +21,24 @@ window.addEventListener('load', () => {
 
 for (let i = 6; i < temps.length+6 ; i++) {
     
-    //bloque que elimina la 11 hasta que podamos integrarla, si es que podemos.
+    
     if (i === 11) {
-            con_temp.removeChild(temps[i-6]);
-            continue;
-        }
+        
+        continue;
+            
+    } else {
 
-    temps[i-6].onclick = () => {
+        temps[i-6].onclick = () => {
         
-        localStorage.setItem('temporada selecionada',`${i}`);
+            localStorage.setItem('temporada selecionada',`${i}`);
         
-        location.href = 'https://ximpxonx-temps.github.io/static/capag/index.html';
+            location.href = 'https://ximpxonx-temps.github.io/static/capag/index.html';
         
         
         
-    };
+        };
+    }
     
 }
+//bloque que elimina la 11 hasta que podamos integrarla, si es que podemos.
+con_temp.removeChild(temps[5])
