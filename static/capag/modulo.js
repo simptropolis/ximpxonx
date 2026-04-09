@@ -42,6 +42,7 @@ export async function listarCapitulos(t) {
           
           div.onclick = () => {
 
+              document.body.style.height = '100vh';
               document.body.style.background = 'linear-gradient(#021214,#052b30)';
               
               document.body.innerHTML = `<h1>Ximpxonx</h1><div id="con-vid"><video src=${url} controls poster="../poster.jpg" width="95%" height="75%" id="vid" >Lo siento mucho, hubo un error.</video><div id="descripcion"><h3 style="text-align:center;">Descripcion:</h3><p>${descripcion[numero[i]]}</p></div></div><div id="con-titulo-vid">${res[numero[i]]}</div><h3>Temp: ${t} Ep: ${numero[i]}</h3>`;
